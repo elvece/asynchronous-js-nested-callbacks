@@ -1,14 +1,16 @@
-# Understanding Asynchronous Code
+## Understanding Asynchronous Code
+
+***This repo contains my solutions, recorded in this readme, to the following exercise:***
 
 Asynchronous programming can quickly become complicated. Nested callbacks and
 anonymous inline functions can make debugging and reading the call stack
 challenging.  One tool to have in your arsenal is a solid visualization of JavaScript's Event Loop.
 
-## Setup
+### Setup
 
 Fork and clone this repository. When you write answers to questions be sure to push.
 
-## Objectives
+### Objectives
 
 By the end of this lesson you should be able to:
 
@@ -16,7 +18,7 @@ By the end of this lesson you should be able to:
 - Identify the order in which code will be executed
 - Write multiple nested async calls in succession
 
-## Set The Stage
+### Set The Stage
 
 _Why?_ Understanding JavaScript's asynchronous capability (and how to use it to
 your advantage) forms the foundation of the vast majority of both Node and Browser programming. Imagine if your
@@ -32,7 +34,7 @@ Let's get started!  Take as much time as you need, and come up with your own exe
 
 Don't forget to close other browser tabs / Atom windows / Terminal tabs.
 
-## Activities
+### Activities
 
 **Learn up!**
 
@@ -58,7 +60,7 @@ setTimeout(function () {
 console.log("b");
 ```
 
-[Enter your answer here]
+[***First, you will see "b", after 5000ms, "a" will appear.***]
 
 Go ahead and open up a `node` REPL, or a Chrome Snippet and run that code. Is the result what you expected?
 
@@ -160,13 +162,13 @@ In a brief sentence or two, describe what's happening in the code above:
 
 > YOUR ANSWER HERE
 
-## Reflect - Self Assess
+### Reflect - Self Assess
 
 Go through the Objectives above. For each one, how do you think you did?
 
 Do you _really_ think you could describe the Stack / Heap and Queue to a beginner?  Try it out on your classmates to see!
 
-## Reflect - New questions
+### Reflect - New questions
 
 What new questions do you have now that you've seen these examples?  Write down 4:
 
