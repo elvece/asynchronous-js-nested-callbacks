@@ -1,6 +1,7 @@
 ## Understanding Asynchronous Code
 
-***This repo contains my solutions, recorded in this readme, to the following exercise:***
+***This repo contains my solutions to the following exercise:
+(answers to readme questions are indicated by bold italics)***
 
 Asynchronous programming can quickly become complicated. Nested callbacks and
 anonymous inline functions can make debugging and reading the call stack
@@ -161,7 +162,7 @@ Look to any Express app or client-side app you've written that involved nested c
 
 In a brief sentence or two, describe what's happening in the code above:
 
-> YOUR ANSWER HERE
+> ***N/A***
 
 ### Reflect - Self Assess
 
@@ -173,7 +174,6 @@ Do you _really_ think you could describe the Stack / Heap and Queue to a beginne
 
 What new questions do you have now that you've seen these examples?  Write down 4:
 
-1. _
-1. _
-1. _
-1. _
+1. What exercises have we done that we utilized nested callbacks?
+1. What is the same-origin policy and how does that relate to cross-origin network access?
+1. Can you abstract nested callbacks and then call them within one main function? --probably yes
