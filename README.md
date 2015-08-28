@@ -55,7 +55,7 @@ What will you see in the console when you run the following code?
 ```js
 setTimeout(function () {
   console.log("a");
-}, 5000)
+}, 5000);
 
 console.log("b");
 ```
@@ -98,6 +98,7 @@ DOH!  Yout get `undefined`.  Here's what happens:
 1. `id` gets set to `'abc'`, but the console.log has _already_ happened
 
 How would you fix that code such that you are properly logging the `id`?
+***Put the console.log inside of the find function, after setting the id varaible value***
 
 **#2 - Evaluate nested callbacks**
 
