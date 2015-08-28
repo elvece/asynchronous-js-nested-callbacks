@@ -1,7 +1,6 @@
 ## Understanding Asynchronous Code
 
 ***This repo contains my solutions to the following exercise:***
-
 *(answers to readme questions are indicated by bold italics)*
 
 Asynchronous programming can quickly become complicated. Nested callbacks and
@@ -175,6 +174,6 @@ Do you _really_ think you could describe the Stack / Heap and Queue to a beginne
 
 What new questions do you have now that you've seen these examples?  Write down 4:
 
-1. What exercises have we done that we utilized nested callbacks?
-1. What is the same-origin policy and how does that relate to cross-origin network access?
-1. Can you abstract nested callbacks and then call them within one main function? --probably yes
+1. ***What exercises have we done that we utilized nested callbacks?***
+1. ***What is the same-origin policy and how does that relate to cross-origin network access?***
+1. ***Can you abstract nested callbacks and then call them within one main function?*** --probably yes
