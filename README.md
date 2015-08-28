@@ -1,7 +1,7 @@
 ## Understanding Asynchronous Code
 
-***This repo contains my solutions to the following exercise:
-(answers to readme questions are indicated by bold italics)***
+***This repo contains my solutions to the following exercise:***
+**(answers to readme questions are indicated by bold italics)**
 
 Asynchronous programming can quickly become complicated. Nested callbacks and
 anonymous inline functions can make debugging and reading the call stack
